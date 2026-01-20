@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'Speedreader' in project 'Speedreader' (no dependencies)

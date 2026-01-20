@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Speedreader-primary.dia",
+    "emit-module-dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Speedreader-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Speedreader-primary-emit-module.dia",
+    "pch" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Speedreader-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Speedreader-primary.swiftdeps"
+  },
+  "/Users/carlotremolada/Desktop/Speedreader/Speedreader/ContentView.swift" : {
+    "const-values" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/carlotremolada/Desktop/Speedreader/Speedreader/Program.swift" : {
+    "const-values" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.swiftconstvalues",
+    "dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.d",
+    "diagnostics" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.dia",
+    "index-unit-output-path" : "/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.o",
+    "llvm-bc" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.bc",
+    "object" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.o",
+    "swift-dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program.swiftdeps",
+    "swiftmodule" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/Program~partial.swiftmodule"
+  },
+  "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/carlotremolada/Desktop/Speedreader/build/Build/Intermediates.noindex/Speedreader.build/Debug/Speedreader.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
