@@ -1,0 +1,18 @@
+# Auto detect text files and normalize line endings to LF
+* text=auto
+
+# Swift
+*.swift text eol=lf diff=swift
+
+# Xcode
+*.pbxproj merge=union
+*.xcodeproj/** merge=union
+*.playground/** linguist-detectable=false
+
+# Build artifacts
+build/ export-ignore
+*.app/ export-ignore
+DerivedData/ export-ignore
+
+# Documentation
+*.md text eol=lf diff=markdown
