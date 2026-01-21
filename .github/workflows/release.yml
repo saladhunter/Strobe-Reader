@@ -1,0 +1,43 @@
+name: Release Build
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release-build:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Select Xcode version
+      run: sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+    
+    - name: Get version from tag
+      run: echo "VERSION=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+    
+    - name: Build Release
+      run: |
+        xcodebuild \
+          -project Speedreader.xcodeproj \
+          -scheme Speedreader \
+          -configuration Release \
+          -derivedDataPath build \
+          -verbose
+    
+    - name: Create DMG
+      run: |
+        mkdir -p dist
+        cp -r build/Build/Products/Release/Speedreader.app dist/
+        hdiutil create -volname "Speedreader" -srcfolder dist -ov -format UDZO "Speedreader-${{ env.VERSION }}.dmg"
+    
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: Speedreader-*.dmg
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

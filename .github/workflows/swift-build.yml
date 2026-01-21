@@ -1,0 +1,38 @@
+name: Swift Build
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Select Xcode version
+      run: sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+    
+    - name: Show Xcode version
+      run: xcode-select --print-path
+    
+    - name: Build
+      run: |
+        xcodebuild \
+          -project Speedreader.xcodeproj \
+          -scheme Speedreader \
+          -configuration Debug \
+          -derivedDataPath build \
+          -verbose
+    
+    - name: Check build success
+      run: |
+        if [ -d "build/Build/Products/Debug/Speedreader.app" ]; then
+          echo "✓ Build successful"
+        else
+          echo "✗ Build failed"
+          exit 1
+        fi

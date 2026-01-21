@@ -1,0 +1,38 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  swiftformat:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install SwiftFormat
+      run: brew install swiftformat
+    
+    - name: Check formatting
+      run: swiftformat --lint Speedreader/
+      continue-on-error: true
+    
+    - name: Report formatting issues
+      if: failure()
+      run: echo "⚠ Swift formatting issues found. Run 'swiftformat Speedreader/' locally to fix."
+  
+  swiftlint:
+    runs-on: macos-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install SwiftLint
+      run: brew install swiftlint
+    
+    - name: Run SwiftLint
+      run: swiftlint lint Speedreader/ --reporter github-actions
+      continue-on-error: true
